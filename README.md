@@ -16,9 +16,6 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install redcarpet_markdown_to_prismjs
 
 ## Usage
 
