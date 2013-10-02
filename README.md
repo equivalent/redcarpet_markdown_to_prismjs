@@ -22,10 +22,11 @@ Or install it yourself as:
 
 ## Usage
 
-
+```ruby
 "my string".to_prism_html
 
 #=> "<p>my string</p>"
+```
 
 ## Contributing
 
