@@ -22,10 +22,41 @@ Or install it yourself as:
 
 ## Usage
 
+```ruby
+class Foo
+  include RedcarpetMarkdownToPrismjs
 
-"my string".to_prism_html
+  def some_string
+    "my string"
+  end
+ 
+  def string_to_prism
+    prism_html(some_string)
+  end
+end
 
-#=> "<p>my string</p>"
+foo =  Foo.new
+foo.string_to_prism  #=> "<p>my string</p>"
+```
+
+or if you prefer it as a class method
+
+```ruby
+class Bar
+  extend RedcarpetMarkdownToPrismjs
+
+  def some_string
+    "my string"
+  end
+ 
+  def string_to_prism
+    Bar.prism_html(some_string)
+  end
+end
+
+foo =  Foo.new
+foo.string_to_prism  #=> "<p>my string</p>"
+```
 
 ## Contributing
 
