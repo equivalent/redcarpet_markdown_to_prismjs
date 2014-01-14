@@ -10,15 +10,11 @@ be recognized by Prism.js syntax highlight.
 
 Add this line to your application's Gemfile:
 
-    gem 'redcarpet_markdown_to_prismjs'
+    gem 'redcarpet_markdown_to_prismjs', github: 'equivalent/redcarpet_markdown_to_prismjs'
 
 And then execute:
 
     $ bundle
-
-Or install it yourself as:
-
-    $ gem install redcarpet_markdown_to_prismjs
 
 ## Usage
 

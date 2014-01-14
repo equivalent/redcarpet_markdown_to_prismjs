@@ -17,5 +17,4 @@ describe Foo do
 
     instance.prism_html("my string")
   end
-
 end
